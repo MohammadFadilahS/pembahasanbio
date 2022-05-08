@@ -13,6 +13,7 @@ const benar = document.querySelector(".benar");
 //jika click mulaijawab
 start_btn.onclick = ()=>{
    quiz_box.classList.add("activeQuiz");
+   button3.classList.remove("activeButton3");
 }
 //jika klik pembahasan
 next_btn.onclick = ()=>{
