@@ -13,8 +13,6 @@ const benar = document.querySelector(".benar");
 //jika click mulaijawab
 start_btn.onclick = ()=>{
    quiz_box.classList.add("activeQuiz");
-   h3.classList.add("activeH3");
-   button3.classList.add("activeButton3");
 }
 //jika klik pembahasan
 next_btn.onclick = ()=>{
@@ -63,8 +61,8 @@ option2.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     benar.classList.add("activeBenar");
-    button3.classList.remove("activeButton3");
-    h3.classList.remove("activeH3");
+    button3.classList.add("activeButton3");
+    h3.classList.add("activeH3");
 }
 option1.onclick = () => {
     iconcross1.classList.add("activeCross1");
@@ -72,8 +70,8 @@ option1.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.remove("activeButton3");
-    h3.classList.remove("activeH3");
+    button3.classList.add("activeButton3");
+    h3.classList.add("activeH3");
 }
 option3.onclick = () => {
     iconcross3.classList.add("activeCross3");
@@ -81,8 +79,8 @@ option3.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.remove("activeButton3");
-    h3.classList.remove("activeH3");
+    button3.classList.add("activeButton3");
+    h3.classList.add("activeH3");
 }
 option4.onclick = () => {
     iconcross4.classList.add("activeCross4");
@@ -90,8 +88,8 @@ option4.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.remove("activeButton3");
-    h3.classList.remove("activeH3");
+    button3.classList.add("activeButton3");
+    h3.classList.add("activeH3");
 }
 button3.onclick = ()=> {
     kalah.classList.add("activeKalah");
@@ -106,6 +104,6 @@ kalah.onclick = ()=> {
     option_listdivnthlastchild4.classList.add("activeBgcrossatas");
     option_listdivnthlastchild2.classList.add("activeBgcross3");
     kalah.classList.remove("activeKalah");
-    h3.classList.remove("activeH3");
+    h3.classList.add("activeH3");
     footerbutton.classList.add("activeButton");
 }

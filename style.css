@@ -612,7 +612,7 @@ footer h3 {
     font-size: 18px;
     color:rgb(255, 238, 0);
     transform:  scale(0.95);
-    opacity: 0;
+    opacity: 1;
 }
 footer button3 {
     height: 38px;
@@ -635,14 +635,14 @@ footer button3 {
     border-radius: 10px;
     background: #f82121;
     border: 2px solid #f32020;
-    opacity: 0;
+    opacity: 1;
 }
 footer button3:hover{
     background-color: #ea0000;
 }
 footer button3.activeButton3,
 footer h3.activeH3 {
-    opacity: 1;
+    opacity: 0;
     z-index: 5;
     pointer-events:auto;
     transform: scale(1);
