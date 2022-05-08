@@ -30,8 +30,6 @@ next_btn.onclick = ()=>{
  //Muncul Pembahasan dan cek jawaban
  const footerbutton=document.querySelector("footer button");
  const footerbutton1=document.querySelector("footer button1");
- //muncul kotak nyerah
-const bantuan=document.querySelector(".bantuan");
 //jika klik cek jawaban
 cek_btn.onclick = ()=>{
     icontick.classList.add("activeTick");
@@ -44,7 +42,6 @@ cek_btn.onclick = ()=>{
     option_listdivnthlastchild2.classList.add("activeBgcross3");
  }
  //tombol bantuan dan petak hilang 
- const kunci = document.querySelector ("footer button3");
  const h3 = document.querySelector ("footer h3");
 //getting answer 
 const icontick = document.querySelector (".icon.tick");
@@ -62,7 +59,6 @@ option2.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     benar.classList.add("activeBenar");
-    kunci.classList.add("activeButton3");
     h3.classList.add("activeH3");
 }
 option1.onclick = () => {
@@ -71,7 +67,6 @@ option1.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.add("activeButton3");
     h3.classList.add("activeH3");
 }
 option3.onclick = () => {
@@ -80,7 +75,6 @@ option3.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.add("activeButton3");
     h3.classList.add("activeH3");
 }
 option4.onclick = () => {
@@ -89,6 +83,5 @@ option4.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    button3.classList.add("activeButton3");
     h3.classList.add("activeH3");
 }
