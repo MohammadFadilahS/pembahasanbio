@@ -10,6 +10,11 @@ const option3 = document.querySelector (".option3");
 const option4 = document.querySelector (".option4");
 const card2 = document.querySelector(".card2");
 const benar = document.querySelector(".benar");
+const container = document.querySelector(".container");
+//jika klik container
+container.onclick = ()=> {
+    h3.classList.add("activeH3");
+}
 //jika click mulaijawab
 start_btn.onclick = ()=>{
    quiz_box.classList.add("activeQuiz");
@@ -59,7 +64,7 @@ option2.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     benar.classList.add("activeBenar");
-    h3.classList.add("activeH3");
+    
 }
 option1.onclick = () => {
     iconcross1.classList.add("activeCross1");
@@ -67,7 +72,7 @@ option1.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    h3.classList.add("activeH3");
+   
 }
 option3.onclick = () => {
     iconcross3.classList.add("activeCross3");
@@ -75,7 +80,7 @@ option3.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    h3.classList.add("activeH3");
+  
 }
 option4.onclick = () => {
     iconcross4.classList.add("activeCross4");
@@ -83,5 +88,5 @@ option4.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
-    h3.classList.add("activeH3");
+    
 }
