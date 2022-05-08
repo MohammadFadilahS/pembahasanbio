@@ -45,6 +45,24 @@ cek_btn.onclick = ()=>{
  }
  //tombol petak hilang 
  const h3 = document.querySelector ("footer h3");
+ const kalah = document.querySelector ("footer button3");
+ const nyerah = document.querySelector (".kalah");
+ kalah.onclick = ()=> {
+    nyerah.classList.add("activeKalah");
+ }
+ nyerah.onclick = ()=> {
+    nyerah.classList.remove("activeKalah");
+    h3.classList.add("activeH3");
+    footerbutton.classList.add("activeButton");
+    icontick.classList.add("activeTick");
+    option_listdivnthlastchild.classList.add("activeBackground");
+    iconcross1.classList.add("activeCross1");
+    option_listdivnthlastchild4.classList.add("activeBgcrossatas");
+    iconcross3.classList.add("activeCross3");
+    option_listdivnthlastchild2.classList.add("activeBgcross3");
+    iconcross4.classList.add("activeCross4");
+    option_listdivnthchild4.classList.add("activeBgcross1");
+ }
 //getting answer 
 const icontick = document.querySelector (".icon.tick");
 const iconcross1 = document.querySelector (".icon.cross1");
@@ -62,6 +80,7 @@ option2.onclick = () => {
     footerbutton1.classList.add("activeButton1");
     benar.classList.add("activeBenar");
     h3.classList.add("activeH3");
+    kalah.classList.add("activeButton3");
 }
 option1.onclick = () => {
     iconcross1.classList.add("activeCross1");
@@ -70,6 +89,7 @@ option1.onclick = () => {
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
     h3.classList.add("activeH3");
+    kalah.classList.add("activeButton3");
 }
 option3.onclick = () => {
     iconcross3.classList.add("activeCross3");
@@ -78,6 +98,7 @@ option3.onclick = () => {
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
     h3.classList.add("activeH3");
+    kalah.classList.add("activeButton3");
 }
 option4.onclick = () => {
     iconcross4.classList.add("activeCross4");
@@ -86,4 +107,5 @@ option4.onclick = () => {
     footerbutton1.classList.add("activeButton1");
     card2.classList.add("activeCard2");
     h3.classList.add("activeH3");
+    kalah.classList.add("activeButton3");
 }
