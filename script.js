@@ -31,7 +31,7 @@ next_btn.onclick = ()=>{
  const footerbutton=document.querySelector("footer button");
  const footerbutton1=document.querySelector("footer button1");
  //muncul kotak nyerah
-const kalah=document.querySelector(".kalah");
+const bantuan=document.querySelector(".bantuan");
 //jika klik cek jawaban
 cek_btn.onclick = ()=>{
     icontick.classList.add("activeTick");
@@ -43,8 +43,8 @@ cek_btn.onclick = ()=>{
     option_listdivnthlastchild4.classList.add("activeBgcrossatas");
     option_listdivnthlastchild2.classList.add("activeBgcross3");
  }
- //tombol nyerah dan petak hilang 
- const button3 = document.querySelector ("footer button3");
+ //tombol bantuan dan petak hilang 
+ const kunci = document.querySelector ("footer button3");
  const h3 = document.querySelector ("footer h3");
 //getting answer 
 const icontick = document.querySelector (".icon.tick");
@@ -62,7 +62,7 @@ option2.onclick = () => {
     footerbutton.classList.add("activeButton");
     footerbutton1.classList.add("activeButton1");
     benar.classList.add("activeBenar");
-    button3.classList.add("activeButton3");
+    kunci.classList.add("activeButton3");
     h3.classList.add("activeH3");
 }
 option1.onclick = () => {
@@ -91,20 +91,4 @@ option4.onclick = () => {
     card2.classList.add("activeCard2");
     button3.classList.add("activeButton3");
     h3.classList.add("activeH3");
-}
-button3.onclick = ()=> {
-    kalah.classList.add("activeKalah");
-}
-kalah.onclick = ()=> {
-    icontick.classList.add("activeTick");
-    iconcross1.classList.add("activeCross1");
-    iconcross3.classList.add("activeCross3");
-    iconcross4.classList.add("activeCross4");
-    option_listdivnthlastchild.classList.add("activeBackground");
-    option_listdivnthchild4.classList.add("activeBgcross1");
-    option_listdivnthlastchild4.classList.add("activeBgcrossatas");
-    option_listdivnthlastchild2.classList.add("activeBgcross3");
-    kalah.classList.remove("activeKalah");
-    h3.classList.add("activeH3");
-    footerbutton.classList.add("activeButton");
 }

@@ -223,7 +223,7 @@ font-family: cursive;
     left: 23%;
     position: absolute;
 }
-.kalah {
+.bantuan {
     background-color: rgb(253, 253, 253);
     top:51%;
     padding:28px 5px 4px 4px;
@@ -237,12 +237,12 @@ font-family: cursive;
     justify-content:baseline;
     align-items:center;
     flex-direction: column;
-    opacity: 0;
+    opacity: 1;
     transform: translate(-50%, -50%) scale(0.9);
     pointer-events: none;
     transition: all 0.7s ease;
 }
-.kalah span5{
+.bantuan span5{
     color: black ;
     width: 720;
     height: 360;
@@ -252,13 +252,6 @@ font-family: cursive;
     font-family: cursive;
     padding-top: 100;
     word-break:keep-all;
-}
- .kalah img {
-    width: 230px;
-    height: 180px;
-    top: 32%;
-    left: 23%;
-    position: absolute;
 }
 
  .option_list div:nth-last-child(3).activeBackground{
@@ -285,7 +278,7 @@ border: 1px solid #5cd554;
 .icon.cross4.activeCross4,
 .card2.activeCard2,
 .benar.activeBenar,
-.kalah.activeKalah
+.bantuan.activeBantuan
 {
     opacity: 1;
     z-index: 5;
@@ -616,8 +609,8 @@ footer h3 {
 }
 footer button3 {
     height: 38px;
-    width: 82px;
-    padding: 0px 15px 0 12px;
+    width: 72px;
+    padding: 0px 13px 0 12px;
     left: 84%;
     font-size: 18px;
     font-family: cursive;
@@ -635,7 +628,6 @@ footer button3 {
     border-radius: 10px;
     background: #f82121;
     border: 2px solid #f32020;
-    opacity: 1;
 }
 footer button3:hover{
     background-color: #ea0000;
