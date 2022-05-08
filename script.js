@@ -14,6 +14,7 @@ const benar = document.querySelector(".benar");
 start_btn.onclick = ()=>{
    quiz_box.classList.add("activeQuiz");
    h3.classList.add("activeH3");
+   button3.classList.add("activeButton3");
 }
 //jika klik pembahasan
 next_btn.onclick = ()=>{
@@ -94,9 +95,6 @@ option4.onclick = () => {
 }
 button3.onclick = ()=> {
     kalah.classList.add("activeKalah");
-}
-h3.onclick = ()=>{
-    button3.classList.add("activeButton3");
 }
 kalah.onclick = ()=> {
     icontick.classList.add("activeTick");
