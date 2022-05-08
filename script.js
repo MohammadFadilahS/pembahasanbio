@@ -10,10 +10,10 @@ const option3 = document.querySelector (".option3");
 const option4 = document.querySelector (".option4");
 const card2 = document.querySelector(".card2");
 const benar = document.querySelector(".benar");
-const container= document.querySelector(".container");
 //jika click mulaijawab
 start_btn.onclick = ()=>{
    quiz_box.classList.add("activeQuiz");
+   h3.classList.add("activeH3");
 }
 //jika klik pembahasan
 next_btn.onclick = ()=>{
@@ -95,9 +95,8 @@ option4.onclick = () => {
 button3.onclick = ()=> {
     kalah.classList.add("activeKalah");
 }
-container.onclick = ()=>{
+h3.onclick = ()=>{
     button3.classList.add("activeButton3");
-    h3.classList.add("activeH3");
 }
 kalah.onclick = ()=> {
     icontick.classList.add("activeTick");

@@ -612,6 +612,7 @@ footer h3 {
     font-size: 18px;
     color:rgb(255, 238, 0);
     transform:  scale(0.95);
+    cursor: pointer;
     opacity: 0;
 }
 footer button3 {
