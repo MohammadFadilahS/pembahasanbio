@@ -76,7 +76,8 @@ color:rgb(39, 243, 16);
 .quiz_box,
 .card,
 .card2,
-.benar
+.benar,
+.kalah
 {
     position: absolute;
     top: 50%;
@@ -222,6 +223,43 @@ font-family: cursive;
     left: 23%;
     position: absolute;
 }
+.kalah {
+    background-color: rgb(253, 253, 253);
+    top:51%;
+    padding:28px 5px 4px 4px;
+    left: 50%;
+    width: 400px;
+    height: 250px;
+    border: 8px solid rgb(214, 214, 217);
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    justify-content:baseline;
+    align-items:center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+    pointer-events: none;
+    transition: all 0.7s ease;
+}
+.kalah span5{
+    color: black ;
+    width: 720;
+    height: 360;
+    font-weight: 500;
+    font-size: 24px;
+    text-align:center;
+    font-family: cursive;
+    padding-top: 100;
+    word-break:keep-all;
+}
+ .kalah img {
+    width: 230px;
+    height: 180px;
+    top: 32%;
+    left: 23%;
+    position: absolute;
+}
 
  .option_list div:nth-last-child(3).activeBackground{
 background: rgb(182, 255, 167);
@@ -246,7 +284,8 @@ border: 1px solid #5cd554;
 .icon.cross3.activeCross3,
 .icon.cross4.activeCross4,
 .card2.activeCard2,
-.benar.activeBenar
+.benar.activeBenar,
+.kalah.activeKalah
 {
     opacity: 1;
     z-index: 5;
@@ -498,7 +537,7 @@ footer{
     padding: 0 30px;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
     border-top: 1px solid lightgrey;
 }
 footer button{
@@ -569,10 +608,46 @@ footer button1.activeButton1 {
 footer h3 {
     text-align: center;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: 600;
     font-size: 18px;
     color:rgb(255, 238, 0);
+    transform:  scale(0.95);
+    opacity: 0;
 }
+footer button3 {
+    height: 38px;
+    width: 82px;
+    padding: 0px 15px 0 12px;
+    left: 84%;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    line-height: 10px;
+    transform:  scale(0.95);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background: #f82121;
+    border: 2px solid #f32020;
+    opacity: 0;
+}
+footer button3:hover{
+    background-color: #ea0000;
+}
+footer button3.activeButton3,
+footer h3.activeH3 {
+    opacity: 1;
+    z-index: 5;
+    pointer-events:auto;
+    transform: scale(1);
+}
+
 .buttons button {
     top: 45%;
     right: 45%;
